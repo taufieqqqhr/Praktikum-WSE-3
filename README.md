@@ -1,77 +1,54 @@
-# Praktikum WSE 3
+# Praktikum WSE 3 — Laporan dan Hasil
 
-Selamat datang di repository Praktikum WSE 3.
+Repository ini berisi hasil Praktikum Web Service Engineering (WSE) - Praktikum 3 yang dibuat oleh Taufiq Husalianur Rahman (NIM: 230104040224).
 
-Deskripsi
+Isi repository
 
-Proyek ini berisi latihan/implementasi tugas praktikum mata kuliah Web Service Engineering (WSE) - praktikum ke-3. README ini bersifat umum; sesuaikan bagian-bagian berikut dengan detail implementasi, struktur file, dan instruksi khusus yang ada di repo.
+- Laporan praktik (dokumen Microsoft Word):
+  - [Laporan Praktikum WSE P3_TAUFIQ HUSALIANUR RAHMAN_230104040224.docx](https://github.com/taufieqqqhr/Praktikum-WSE-3/blob/main/Laporan%20Praktikum%20WSE%20P3_TAUFIQ%20HUSALIANUR%20RAHMAN_230104040224.docx)
 
-Fitur (contoh)
+- Folder hasil tangkapan layar dan file pendukung untuk setiap bagian praktikum:
+  - P3 WSE/Client Server/
+    - Screenshot (262).png
+    - Screenshot (263).png
+    - Screenshot (264).png
+    - Screenshot (265).png
+    (lihat: https://github.com/taufieqqqhr/Praktikum-WSE-3/tree/main/P3%20WSE/Client%20Server)
+  - P3 WSE/MS/
+    - Screenshot (275).png
+    - Screenshot (276).png
+    - Screenshot (277).png
+    - Screenshot (278).png
+    (lihat: https://github.com/taufieqqqhr/Praktikum-WSE-3/tree/main/P3%20WSE/MS)
+  - P3 WSE/SOA/
+    - Screenshot (266).png
+    - Screenshot (268).png
+    - Screenshot (269).png
+    - Screenshot (271).png
+    (lihat: https://github.com/taufieqqqhr/Praktikum-WSE-3/tree/main/P3%20WSE/SOA)
 
-- Implementasi layanan web (REST API) untuk latihan.
-- Contoh endpoint untuk operasi CRUD.
-- Konfigurasi project dan skrip untuk menjalankan server.
+Catatan tentang isi
 
-Prasyarat
+- Dokumen Word berisi laporan lengkap praktik, langkah-langkah, dan hasil pembahasan.
+- Folder "P3 WSE" berisi subfolder untuk masing-masing topik (Client-Server, Microservices, SOA) yang berisi tangkapan layar hasil percobaan.
 
-- Node.js (>=14) / Python / Java — sesuaikan dengan bahasa yang digunakan dalam repo.
-- Paket manajer: npm / pip / maven sesuai kebutuhan.
+Cara melihat dan menggunakan
 
-Struktur Direktori (sesuaikan jika berbeda)
+1. Untuk melihat laporan, buka file .docx yang ada di direktori utama menggunakan Microsoft Word atau aplikasi pembaca dokumen yang kompatibel.
+2. Untuk melihat hasil percobaan, buka folder yang relevan di dalam "P3 WSE" dan lihat gambar screenshot.
 
-- src/       : Kode sumber aplikasi
-- routes/    : Definisi endpoint (jika menggunakan Node/Express)
-- tests/     : Unit / integrasi tests
-- public/    : Aset statis
-- README.md  : Dokumen ini
+Keterangan tambahan
 
-Instalasi
-
-1. Clone repository:
-
-   git clone https://github.com/taufieqqqhr/Praktikum-WSE-3.git
-   cd Praktikum-WSE-3
-
-2. Install dependensi (contoh Node.js):
-
-   npm install
-
-Menjalankan Aplikasi
-
-- Development (Node.js contoh):
-
-  npm run dev
-
-- Production:
-
-  npm start
-
-API — Contoh (sesuaikan dengan implementasi nyata)
-
-- GET /items      : Mendapatkan daftar item
-- GET /items/:id  : Mendapatkan item berdasarkan id
-- POST /items     : Membuat item baru
-- PUT /items/:id  : Memperbarui item
-- DELETE /items/:id : Menghapus item
-
-Testing
-
-- Menjalankan test (contoh):
-
-  npm test
-
-Kontribusi
-
-Sambutan kontribusi — silakan buka issue atau pull request. Sertakan deskripsi perubahan dan langkah untuk mereproduksi (jika relevan).
+- Repositori ini adalah kumpulan materi dan bukti praktikum; tidak ada kode sumber aplikasi yang harus dijalankan di repositori ini. Jika Anda ingin memasukkan kode/skrip yang dapat dijalankan, beri tahu saya agar saya bisa menambahkannya ke README.
 
 Lisensi
 
-Cantumkan lisensi proyek di sini (mis. MIT). Jika belum ada, tambahkan file LICENSE.
+- Jika ingin menambahkan lisensi, tambahkan file LICENSE di repositori dan perbarui bagian ini.
 
 Kontak
 
-Untuk pertanyaan, hubungi: taufieqqqhr (GitHub).
+- Pembuat: Taufiq Husalianur Rahman — https://github.com/taufieqqqhr
 
-Catatan
+---
 
-Ini adalah template README yang dibuat otomatis. Jika Anda ingin saya menyesuaikannya lebih lanjut dengan isi repository (mis. bahasa pemrograman, skrip start, endpoint aktual, contoh request/response), berikan detail atau izinkan saya membaca struktur repo dan file utama.
+Harap perbarui README.md ini di cabang main dengan isi di atas.
